@@ -2,10 +2,11 @@
     position : fixed;
     bottom : 0;
     width : 100%;
-    background-color: #f9f9fa;
+    background-color: var(--light-dark);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     padding : 20px 50px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(121,121,121,0.3);
 }
 .nav__list{
     display : flex;
@@ -13,7 +14,11 @@
 }
 .nav__link{
     position: relative;
-    color : #2e363e;
+    color : var(--white);
+}
+
+.nav__link:hover{
+    color : var(--green);
 }
 
 @keyframes notificationAnimation{
@@ -60,4 +65,7 @@
 }
 .nav__btn:last-child{
     animation-delay: 0.7s;
+}
+.fa-clover{
+    color : var(--green);
 }

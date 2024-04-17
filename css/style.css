@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;600&display=swap');
 @import "reset.css";
 @import "variables.css";
 
@@ -25,8 +23,9 @@
 
 
 body{
-    font-family: "Open Sans", sans-serif;
-    color : #2e363e;
+    font-family: "IBM Plex Mono", monospace;
+    background-color: var(--deep-dark);
+    color : var(--white);
 }
 .main-screen{
     padding : 0 var(--horizontal-space);

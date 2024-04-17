@@ -1,11 +1,14 @@
 .user-component{
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 .user-component,
 .user-component__column:first-child{
     display: flex;
     align-items: center;
+}
+.user-component:hover{
+    color : var(--green);
 }
 .user-component__avatar{
     width : 70px;
@@ -14,13 +17,14 @@
     margin-right: 20px;
 }
 .user-component__title{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
 }
 .user-component__subtitle{
     margin-top: 8px;
-    color : rgba(0,0,0,0.5);
-    font-size: 17px;
+    color : var(--white);
+    font-size: 15px;
+    font-weight: 100;
     position: relative;
 }
 .user-component__subtitle span{
@@ -48,7 +52,7 @@
 }
 
 .user-component__column:last-child{
-    color : rgba(0,0,0,0.4);
+    color : var(--white);
     display : flex;
     flex-direction: column;
     align-items: flex-end;
