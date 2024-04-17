@@ -4,11 +4,11 @@
     align-items: center;
     /* padding : 50px 20px 20px; */
     padding : var(--horizontal-space);
-    padding-top : 50px;
+    padding-top : 45px;
     margin-bottom: 10px;
 }
 .screen-header__title{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
     color : var(--green);
 }
@@ -21,7 +21,7 @@
 .screen-header__dot{
     position: absolute;
     right : 20px;
-    top : 50px;
+    top : 45px;
 }
 
 @keyframes rotateIcon{

@@ -1,10 +1,10 @@
 .icon-row{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .icon-row__icon{
-    padding: 15px 15px 10px;
+    padding : 5px 0;
     width : 80px;
     display: flex;
     flex-direction: column;
@@ -12,14 +12,13 @@
 }
 .icon-row__icon:hover{
     color : var(--green);
-    background-color: var(--light-dark);
-    border-radius: 10px;
     cursor: pointer;
 }
 .icon-row__icon i{
-    font-size: 35px;
+    font-size: 25px;
 }
 .icon-row__icon span{
+    font-size: 14px;
     margin-top: 15px;
     text-align: center;
 }
