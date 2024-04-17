@@ -49,3 +49,6 @@
     animation : hideSplashScreen 0.3s ease-in-out forwards;
     animation-delay: 0.4s;
 }
+#splash-screen .fa-clover{
+    color : var(--white);
+}
